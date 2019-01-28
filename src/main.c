@@ -40,5 +40,6 @@ int main(int argc, char *argv[]) {
     // authenticate to the CSH LDAP
     LDAP *ld = csh_authenticate(hostname, bind_dn, passwd);
 
+    // setting up harold
     return 0;
 }
