@@ -9,7 +9,10 @@
 
 #include <ldap.h>
 
-/// authenticates on the ldap server with SSL
+/// csh_authenticate - authenticates to an ldap server
+/// hostname - hostname to the ldap server
+/// bind_on - the binding thing url thing whatever
+/// passwd - password
 LDAP *csh_authenticate(char *hostname, char *bind_on, char *passwd);
 
 #endif
